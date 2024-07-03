@@ -11,3 +11,6 @@
 3.Выполнить команду: gcc -fno-stack-protector -m32 -c kernel.c -o kc.o<br>
 4.Выполнить команду: ld -m elf_i386 -T link.ld -o kernel kasm.o kc.o<br>
 5.Запустить на эмуляторе: qemu-system-i386 -kernel kernel<br>
+
+
+<h1 align="center">Выполнил: студент группы:ИП2К-22 Удальцов Дмитрий Игоревич</h1><br>
